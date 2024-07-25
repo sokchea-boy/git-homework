@@ -1,0 +1,36 @@
+*{
+    margin: 10px;
+    padding: 10px;
+}
+table{
+    margin: 10px;
+    border-collapse: collapse;
+    width: 95%;
+}
+th, td {
+    border: 1px solid black;
+    text-align: center;
+}
+th{
+    color: rgb(48, 48, 29);
+    background:rgb(234, 229, 229);
+}
+td:nth-child(1){
+    /* background: #c7c4c4; */
+}
+td:nth-child(2){
+    /* background: #cabfbf; */
+}
+td:hover{
+    background: rgb(152, 144, 129);
+}
+tbody tr td {
+    /* background-image: url(pnc.jpg); */
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    color: rgb(254, 15, 15);
+}
